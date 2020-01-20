@@ -10,3 +10,61 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 28px 28px;
+  position: fixed;
+  background-color: none;
+  z-index: 1;
+}
+.nav a {
+  padding: 0px 15px 0px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  &:hover {
+    color: #2fed9e;
+    transition: all .2s ease-in-out;
+  }
+}
+
+.nav img {
+  height: 30px;
+  justify-content: flex-start;
+}
+
+.popup {
+  position: relative;
+
+  img {
+    &:hover {
+      + .bubble {
+        transform: rotateY(0deg) scale(1) translateY(-20px);
+        opacity: 1;
+      }
+    }
+  }
+}
+.bubble {
+  position: absolute;
+  top: 27px;
+  left: -41px;
+  background: none;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 999px;
+  transform: rotateY(90deg) scale(.5) translateY(0);
+  opacity: 0;
+  transition: all .3s ease-in-out;
+
+  &::after {
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+    bottom: -20px;
+    left: 38%;
+  }
+}

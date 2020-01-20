@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: white !important;
+}
+
+section {
+  height: 100vh;
+  padding-top: 100px;
+  background-color: #FEFF4F;
+}
+
+h1 {
+  font-family: Open Sans !important;
+  font-weight: 800 !important;
+  font-size: 65px !important;
+}
+
+h2 {
+  border-bottom-style: solid;
+  border-color: #FF66C4;
+  width: fit-content;
+  font-size: 5rem !important;
+}
+
+h3 {
+  color: #FF66C4;
+}
+
