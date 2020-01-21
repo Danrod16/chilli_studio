@@ -26,7 +26,7 @@
   color: black;
   font-weight: 700;
   &:hover {
-    color: #2fed9e;
+    color: #FF66C4;
     transition: all .2s ease-in-out;
   }
 }
@@ -49,6 +49,8 @@
   }
 }
 .bubble {
+  color: #FF66C4;
+  font-family: 'Yellowtail', "cursive";
   position: absolute;
   top: 27px;
   left: -41px;
