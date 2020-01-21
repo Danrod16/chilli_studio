@@ -15,6 +15,10 @@
 
 .banner h2 {
   color: black;
+  font-family: Open sans;
+  font-weight: 300;
+  font-size: 36px !important;
+  border-style: none;
 }
 
 .banner h3 {
@@ -60,11 +64,11 @@
 
   &:hover {
     &:before {
-      text-shadow: 4px 0 rgba(131, 255, 204,0.9);
+      text-shadow: 4px 0 rgb(255, 102, 196);
       animation: glitch-loop-1 0.8s infinite ease-in-out alternate-reverse;
     }
     &:after {
-      text-shadow: -5px 0 rgba(240, 240, 240,0.9);
+      text-shadow: -5px 0 rgb(255, 102, 196);
       animation: glitch-loop-2 0.8s infinite ease-in-out alternate-reverse;
     }
   }
