@@ -1,15 +1,3 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
 
 .nav {
   width: 100%;
@@ -19,7 +7,13 @@
   position: fixed;
   background-color: none;
   z-index: 1;
+  transition: 0.5s background-color ease;
 }
+
+.nav-blue {
+  background-color: #76ffff;
+}
+
 .nav a {
   padding: 0px 15px 0px 15px;
   text-decoration: none;

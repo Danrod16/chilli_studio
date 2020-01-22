@@ -1,5 +1,3 @@
-<!-- banner -->
-<!-- end banner -->
 <!-- main -->
   <section id="story">
     <div class="container">
@@ -19,6 +17,12 @@
         </div>
       </div>
     </div>
+    <div class="scroll">
+      <%= link_to :anchor => "work" do %>
+      <i class="fas fa-angle-down"></i>
+      <p>scroll</p>
+      <% end %>
+    </div>
   </section>
   <section id="work">
     <div class="container">
@@ -26,7 +30,9 @@
 
       <div class="layout-grid">
         <div class="cell">
-          <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579522257/Screenshot_2019-12-24_at_12.22.32_hcvnub.png" alt="Airloan app">
+          <a href="http://airloan.herokuapp.com/" target="blank">
+            <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579522257/Screenshot_2019-12-24_at_12.22.32_hcvnub.png" alt="Airloan app">
+          </a>
         </div>
         <div class="cell">
         <br>
@@ -37,14 +43,20 @@
           <h3>Shuffle</h3>
           <p>Shuffle is a mobile first web app for young and versatile job-hunters who wish to connect with minutes al without the need of a CV. This app was built with tinder-like UX and a complex matching algorithm.</p>
         </div>
-        <div class="cell" style="display: flex;justify-content: space-evenly;">
-          <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579521300/Screenshot_2020-01-20_at_12.54.41_nsxv8n.png" alt="shuffle app">
-          <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579521148/Screenshot_2019-12-11_at_16.21.47_yeupse.png" alt="shuffle app">
-
-        </div>
+          <a href="http://www.shuffle-jobs.com/" target="blank">
+            <div class="cell" style="display: flex;justify-content: space-evenly;">
+                <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579521300/Screenshot_2020-01-20_at_12.54.41_nsxv8n.png" alt="shuffle app">
+                <img src="https://res.cloudinary.com/therainycloud/image/upload/v1579521148/Screenshot_2019-12-11_at_16.21.47_yeupse.png" alt="shuffle app">
+            </div>
+          </a>
       </div>
     </div>
+    <div class="scroll">
+      <%= link_to :anchor => "contact" do %>
+      <i class="fas fa-angle-down"></i>
+      <p>scroll</p>
+      <% end %>
+    </div>
   </section>
-
 <!-- end main -->
 
