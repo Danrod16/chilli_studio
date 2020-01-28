@@ -1,16 +1,6 @@
 @media (min-width: 100px) and (max-width: 575px) {
-  .mobile {
-    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579361660/animation_2_a2aiut.gif);
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    background-position: center;
-  }
-}
-
-@media (min-width: 576px) {
   .banner {
-    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579524644/animation_7_pcuh8a.gif);
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579361660/animation_2_a2aiut.gif);
     height: 100vh;
     width: 100vw;
     object-fit: cover;
@@ -29,5 +19,40 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  .layout-grid {
+      grid-template-columns: 1fr;
+  }
+}
 
+@media (min-width: 576px) {
+  .banner {
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579524644/animation_7_pcuh8a.gif);
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    background-position: bottom;
+  }
+
+  #contact {
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579516707/animation_5_o3m3mx.gif);
+  }
+
+  #story img {
+    height: 210px;
+  }
+
+  #work img {
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .layout-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+  section {
+    height: 100vh;
+    padding-top: 100px;
+    background-color: #FEFF4F;
+    position: relative;
+  }
 }
