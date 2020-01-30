@@ -1,9 +1,12 @@
 section {
-  height: 100vh;
-  padding-top: 100px;
   background-color: #FEFF4F;
   position: relative;
 }
+
+ @media (min-width: 576px) {
+    section {
+      height: 100vh;
+    }
 
 .scroll {
   width: 100%;
@@ -16,6 +19,7 @@ section {
 }
 .scroll i {
   color: black;
+}
 }
 
 a {

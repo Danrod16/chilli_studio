@@ -1,10 +1,60 @@
+// responsive banner elements
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner {
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1580384099/animation_9_ptlsb2.gif);
 
+  .banner-t {
+    font-size: 30px;
+    bottom: 1px;
+    bottom: 107px;
+    left: 28px;
+    text-align: center;
+    h1{
+      font-size: 77px;
+      line-height: 63px;
+    }
+  }
 
+  }
+}
+ @media (min-width: 576px) {
+  .banner {
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579524644/animation_7_pcuh8a.gif);
+    object-fit: cover;
+    background-position: center;
+  }
+
+  .banner-t {
+    bottom: 190px;
+    right: 268px;
+  }
+    h1 {
+  font-size: 100px;
+  line-height: 81px;
+  }
+}
+
+// end responsiveness
+
+.banner {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: relative;
+}
 
 .banner nav {
   // position: absolute;
   // top: 18px;
   // right: 10px;
+}
+
+.banner-t {
+  position: absolute;
+  h1 {
+  font-family: Open Sans;
+  font-weight: 800;
+  }
 }
 // -----------Glitch h1 effect ----------
 

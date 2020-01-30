@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+
+#story img{
+  height: 15em;
+}
+
+#work img {
+  height: 11em;
+}
+
+ @media (min-width: 576px) {
+  #story img{
+    height: 15em;
+  }
+
+  #work img {
+    height: 15em;
+  }
+
+  #contact {
+    background-image: url(https://res.cloudinary.com/therainycloud/image/upload/v1579516707/animation_5_o3m3mx.gif);
+  }
+}
