@@ -2,19 +2,37 @@
 
 #story img{
   height: 15em;
+  // background-color: #76ffff;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  object-fit: cover;
 }
+
+// #story-text {
+//   background-color: white;
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, -0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//   padding: 20px;
+// }
+
+
+
+
 
 #work img {
   height: 11em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
  @media (min-width: 576px) {
   #story img{
-    height: 15em;
+    height: 26em;
   }
 
   #work img {
     height: 15em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #contact {
